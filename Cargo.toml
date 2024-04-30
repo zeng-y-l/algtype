@@ -1,0 +1,15 @@
+[workspace]
+members = ["algtype", "algtype_derive", "count_enum", "power_map"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+authors = ["ZengYL <zeng-y-l@qq.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/zeng-y-l/algtype"
+
+[patch.crates-io]
+algtype = { path = "./algtype" }
+algtype_derive = { path = "./algtype_derive" }
+count_enum = { path = "./count_enum" }
+power_map = { path = "./power_map" }

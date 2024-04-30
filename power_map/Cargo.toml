@@ -1,0 +1,17 @@
+[package]
+name = "power_map"
+version = "0.1.0"
+description = "A map with finite key and fixed size"
+keywords = ["enum", "map"]
+categories = ["no-std", "data-structures"]
+authors.workspace = true
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+algtype = "0.1.0"
+count_enum = "0.1.0"
+
+[dev-dependencies]
+proptest = "1.4.0"

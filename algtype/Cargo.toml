@@ -1,0 +1,17 @@
+[package]
+name = "algtype"
+version = "0.1.0"
+description = "Conversion between data and its representation, like Haskell Generic"
+keywords = ["generic"]
+categories = ["no-std", "rust-patterns"]
+authors.workspace = true
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+algtype_derive = "=0.1.0"
+
+[dev-dependencies]
+proptest = "1.4.0"
+proptest-derive = "0.4.0"
